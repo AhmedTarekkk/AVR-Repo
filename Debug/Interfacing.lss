@@ -11155,8 +11155,8 @@ int main(void)
     4a3c:	cf 93       	push	r28
     4a3e:	cd b7       	in	r28, 0x3d	; 61
     4a40:	de b7       	in	r29, 0x3e	; 62
-	Challenge1();
-    4a42:	0e 94 ee 13 	call	0x27dc	; 0x27dc <Challenge1>
+	LED();
+    4a42:	0e 94 52 17 	call	0x2ea4	; 0x2ea4 <LED>
     4a46:	80 e0       	ldi	r24, 0x00	; 0
     4a48:	90 e0       	ldi	r25, 0x00	; 0
 }
